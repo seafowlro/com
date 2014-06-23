@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include "SingleLinkedList.h"
+#include "Sort.h"
 
 using namespace std;
 
@@ -10,8 +11,8 @@ int _tmain(int argc, _TCHAR* argv[])
 {
     cout << "begin test: ";
 
-    CSingleLinkedList t;
-    t.test();
+    CSort t;
+    t.SortTest();
 
 	return 0;
 }

@@ -36,10 +36,7 @@ private:
 private:
     void CreateHeadNode( )
     {
-        m_phead = new node;
-        m_phead->data = 0;
-        m_phead->next = nullptr;
-
+        m_phead = new node();
         m_pend = m_phead;
     }
     
